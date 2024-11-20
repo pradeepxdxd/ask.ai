@@ -25,7 +25,6 @@ const ChatInterface: React.FC = () => {
       );
 
       const ai_repsonse = response.data.response;
-
       setMessages((prev) => [
         ...prev,
         { user: true, text: input },
