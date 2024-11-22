@@ -138,7 +138,7 @@ const ChatInterface: React.FC = () => {
                         : "bg-gray-700 text-white"
                     }`}
                   >
-                    <h6>
+                    {/* <h6>
                       {msg.text.split("\n").map((line, lineIndex) => (
                         <span key={lineIndex}>
                           {line}
@@ -146,7 +146,8 @@ const ChatInterface: React.FC = () => {
                           <pre />
                         </span>
                       ))}
-                    </h6>
+                    </h6> */}
+                    <pre className="whitespace-pre-wrap break-words">{msg.text}</pre>
                   </div>
                 </div>
               ))}
