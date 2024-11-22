@@ -46,7 +46,7 @@ const ChatInterface: React.FC = () => {
     <>
       {messages.length === 0 ? (
         <div
-          className="min-h-screen bg-black flex flex-col items-center text-white"
+          className="bg-black flex flex-col items-center text-white"
           style={{ marginTop: "10rem" }}
         >
           <Title />
@@ -138,15 +138,6 @@ const ChatInterface: React.FC = () => {
                         : "bg-gray-700 text-white"
                     }`}
                   >
-                    {/* <h6>
-                      {msg.text.split("\n").map((line, lineIndex) => (
-                        <span key={lineIndex}>
-                          {line}
-                          <br />
-                          <pre />
-                        </span>
-                      ))}
-                    </h6> */}
                     <pre className="whitespace-pre-wrap break-words">{msg.text}</pre>
                   </div>
                 </div>
