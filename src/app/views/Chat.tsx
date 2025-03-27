@@ -56,7 +56,7 @@ const ChatInterface: React.FC = () => {
               type="text"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              placeholder="Message Ask IA"
+              placeholder="Message Ask AI"
               className="w-full bg-gray-800 text-gray-300 rounded-full py-3 pl-10 pr-16 focus:outline-none focus:ring-2 focus:ring-gray-600"
             />
             <div className="absolute inset-y-0 left-0 flex items-center pl-3">
